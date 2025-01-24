@@ -166,11 +166,16 @@ CREATE TABLE IF NOT EXISTS loan_installment
 
 ```plaintext
 src/main/java
-  |-- com.ing.creditmodule
-       |-- controllers  # API controllers
-       |-- services     # Business logic
-       |-- repositories # Data access
-       |-- models       # Entity and DTO classes
+  |-- com.inghub.credit
+       |-- config       # DB and Security Configuration
+       |-- constant     # Constants
+       |-- controller   # API controllers
+       |-- domain       # Entity and DTO classes
+       |-- exception    # Expcetion management
+       |-- repository   # Data access
+       |-- request      # Request models
+       |-- response     # Response models
+       |-- service      # Business logic
 ```
 
 ---
